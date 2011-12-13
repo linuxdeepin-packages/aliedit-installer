@@ -1,0 +1,28 @@
+#!/bin/sh
+set -e
+
+curdir=`pwd`
+
+
+if [ -e $HOME/.mozilla/plugins/libaliedit*.so ]; then
+	zenity --question --text="确定卸载aliedit吗？" --title="卸载aliedit"
+	if [ "$?" = 0 ]; then
+		rm -rf ~/.aliedit
+		rm ~/.mozilla/plugins/libaliedit*.so
+	fi
+	zenity --info --text="aliedit卸载完成，如果需要重新安装，请再次运行本程序" --title="卸载完成"
+else
+	zenity --question --text="确定安装aliedit吗？" --title="安装aliedit"
+	tmpdir=`mktemp -d --suffix=aliedit-installer`
+	cd $tmpdir
+	curl https://securitycenter.alipay.com/sc/aliedit/intro.htm > intro.htm
+	url=`grep "https://download.alipay.com/alipaysc/linux/aliedit/" ./intro.htm | grep "img src"| \
+	    sed "s/.*\(https:\/\/download.alipay.com\/alipaysc\/linux\/aliedit\/1.0.3.20\/aliedit.tar.gz\).*/\1/"`
+	curl $url > aliedit.tar.gz
+	tar zxf aliedit.tar.gz
+	sh $tmpdir/aliedit.sh &
+	sleep 3
+	cd $curdir
+	rm -rf $tmpdir
+	zenity --info --text="aliedit安装完成，如需卸载，请再次运行本程序" --title="安装完成"
+fi
