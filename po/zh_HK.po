@@ -1,47 +1,46 @@
-# Chinese translations for PACKAGE package
-# PACKAGE 软件包的简体中文翻译.
+# Chinese translations for PACKAGE package.
 # Copyright (C) 2011 THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# YunQiang Su <wzssyqa@gmail.com>, 2011.
+# Sun Xilin <s.sn.giraffe@gmail.com>, 2011.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: aliedit-installer VERSION\n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-12-16 16:37+0800\n"
-"PO-Revision-Date: 2011-12-16 23:12+0800\n"
+"POT-Creation-Date: 2011-12-16 17:34+0800\n"
+"PO-Revision-Date: 2011-12-16 23:04+0800\n"
 "Last-Translator: Xilin Sun <s.sn.giraffe@gmail.com>\n"
-"Language-Team: Chinese (simplified)\n"
-"Language: zh_CN\n"
+"Language-Team: Chinese (Hong Kong)\n"
+"Language: zh_HK\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #: aliedit-installer:11
 msgid "Do you want to uninstall aliedit plugin?"
-msgstr "是否删除 aliedit 插件？"
+msgstr "是否刪除 aliedit 插件？"
 
 #: aliedit-installer:11
 msgid "Uninstall"
-msgstr "删除"
+msgstr "刪除"
 
 #: aliedit-installer:16
 msgid "Uninstallation completed."
-msgstr "已删除"
+msgstr "已刪除"
 
 #: aliedit-installer:18
 msgid "Do you want to install aliedit plugin?"
-msgstr "是否安装 aliedit 插件？"
+msgstr "是否安裝 aliedit 插件？"
 
 #: aliedit-installer:18
 msgid "Install ?"
-msgstr "是否安装？"
+msgstr "是否安裝？"
 
 #: aliedit-installer:30
 msgid "Installation completed! To uninstall, re-run this program."
-msgstr "已安装！要删除已安装插件，请重新运行此程序"
+msgstr "已安裝！要刪除已安裝插件，請重新執行此程序。"
 
 #: aliedit-installer:30
 msgid "Install completed"
-msgstr "安装完成"
+msgstr "安裝完成"
 
