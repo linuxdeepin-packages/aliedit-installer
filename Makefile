@@ -5,7 +5,7 @@ update-pot:
 	
 install-mo: update-pot
 	for i in `ls po/*.po`; do \
-		bsn=`basename $$i`; \
+		bsn=`basename $$i .po`; \
 		msgfmt $$i -o po/aliedit-installer.mo; \
 		install -d ${DEST}/${PREFIX}/share/locale/$$bsn/LC_MESSAGES/; \
 		install po/aliedit-installer.mo ${DEST}/${PREFIX}/share/locale/$$bsn/LC_MESSAGES/; \
