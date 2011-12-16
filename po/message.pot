@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-12-16 16:11+0800\n"
+"POT-Creation-Date: 2011-12-16 16:37+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,33 +18,29 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: aliedit-installer:11
-msgid "Are you sure to uninstall aliedit plugins?"
+msgid "Do you want to uninstall aliedit plugin?"
 msgstr ""
 
 #: aliedit-installer:11
-msgid "To Uninstall aliedit ?"
+msgid "Uninstall"
 msgstr ""
 
 #: aliedit-installer:16
-msgid "Aliedit uninstalling done"
-msgstr ""
-
-#: aliedit-installer:16
-msgid "Uninstalling done"
+msgid "Uninstallation completed."
 msgstr ""
 
 #: aliedit-installer:18
-msgid "Are you sure to install aliedit?"
+msgid "Do you want to install aliedit plugin?"
 msgstr ""
 
 #: aliedit-installer:18
-msgid "To install aliedit ?"
+msgid "Install ?"
 msgstr ""
 
 #: aliedit-installer:30
-msgid "Aliedit installing done! To uninstall, rerun this program."
+msgid "Installation completed! To uninstall, re-run this program."
 msgstr ""
 
 #: aliedit-installer:30
-msgid "Install done"
+msgid "Install completed"
 msgstr ""

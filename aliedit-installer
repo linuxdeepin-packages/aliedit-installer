@@ -8,14 +8,14 @@ curdir=`pwd`
 
 
 if [ -e $HOME/.mozilla/plugins/libaliedit*.so ]; then
-	zenity --question --text="`gettext \"Are you sure to uninstall aliedit plugins?\"`" --title="`gettext \"To Uninstall aliedit ?\"`"
+	zenity --question --text="`gettext \"Do you want to uninstall aliedit plugin?\"`" --title="`gettext \"Uninstall\"`"
 	if [ "$?" = 0 ]; then
 		rm -rf ~/.aliedit
 		rm ~/.mozilla/plugins/libaliedit*.so
 	fi
-	zenity --info --text="`gettext \"Aliedit uninstalling done\"`" --title="`gettext \"Uninstalling done\"` "
+	zenity --info --text="`gettext \"Uninstallation completed.\"`" --title="`gettext \"Uninstallation completed.\"` "
 else
-	zenity --question --text="`gettext \"Are you sure to install aliedit?\"`" --title="`gettext \"To install aliedit ?\"`"
+	zenity --question --text="`gettext \"Do you want to install aliedit plugin?\"`" --title="`gettext \"Install ?\"`"
 	tmpdir=`mktemp -d --suffix=aliedit-installer`
 	cd $tmpdir
 	curl https://securitycenter.alipay.com/sc/aliedit/intro.htm > intro.htm
@@ -23,9 +23,9 @@ else
 	    sed "s/.*\(https:\/\/download.alipay.com\/alipaysc\/linux\/aliedit\/1.0.3.20\/aliedit.tar.gz\).*/\1/"`
 	curl $url > aliedit.tar.gz
 	tar zxf aliedit.tar.gz
-	sh $tmpdir/aliedit.sh &
+	sh $tmpdir/aliedit.sh&
 	sleep 3
 	cd $curdir
 	rm -rf $tmpdir
-	zenity --info --text="`gettext \"Aliedit installing done! To uninstall, rerun this program.\"`" --title="`gettext \"Install done\"`"
+	zenity --info --text="`gettext \"Installation completed! To uninstall, re-run this program.\"`" --title="`gettext \"Install completed\"`"
 fi

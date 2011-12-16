@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: aliedit-installer VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-12-16 14:56+0800\n"
+"POT-Creation-Date: 2011-12-16 16:37+0800\n"
 "PO-Revision-Date: 2011-12-16 15:34+0800\n"
 "Last-Translator: YunQiang Su <wzssyqa@gmail.com>\n"
 "Language-Team: Chinese (simplified)\n"
@@ -17,34 +17,30 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: aliedit-installer:8
-msgid "Are you sure to uninstall aliedit plugins?"
+#: aliedit-installer:11
+msgid "Do you want to uninstall aliedit plugin?"
 msgstr ""
 
-#: aliedit-installer:8
-msgid "To Uninstall aliedit ?"
+#: aliedit-installer:11
+msgid "Uninstall"
 msgstr ""
 
-#: aliedit-installer:13
-msgid "Aliedit uninstalling done"
+#: aliedit-installer:16
+msgid "Uninstallation completed."
 msgstr ""
 
-#: aliedit-installer:13
-msgid "Uninstalling done"
+#: aliedit-installer:18
+msgid "Do you want to install aliedit plugin?"
 msgstr ""
 
-#: aliedit-installer:15
-msgid "Are you sure to install aliedit?"
+#: aliedit-installer:18
+msgid "Install ?"
 msgstr ""
 
-#: aliedit-installer:15
-msgid "To install aliedit ?"
+#: aliedit-installer:30
+msgid "Installation completed! To uninstall, re-run this program."
 msgstr ""
 
-#: aliedit-installer:27
-msgid "Aliedit installing done! To uninstall, rerun this program."
-msgstr ""
-
-#: aliedit-installer:27
-msgid "Install done"
+#: aliedit-installer:30
+msgid "Install completed"
 msgstr ""
